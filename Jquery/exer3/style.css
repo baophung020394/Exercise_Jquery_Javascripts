@@ -1,0 +1,69 @@
+* {margin: 0; padding: 0;}
+
+h2.chuto {
+    color: white;
+    font-family: tahoma;
+    font-size: 290px;
+    margin-left: 14%;
+    padding-top: 400px;
+}
+
+.chapter1, .chapter2, .chapter3, .chapter4 {
+    height: 1000px;
+    background-image: url(images/moun2.jpg);
+    background-size: cover;
+}
+
+.chapter4 {
+    background-image: url(images/moun5.jpg);
+}
+
+.chapter3 {
+    background-image: url(images/moun4.jpg);
+}
+
+.chapter2 {
+    background: url(images/moun3.jpg);
+}
+
+.noidung1, .noidung2, .noidung3, .noidung4 {
+    height: 800px;
+    padding: 50px 0;
+    text-align: center;
+    color: gray;
+}
+
+.home {
+    width: 100%;
+    height: 800px;
+    background: url(images/moun1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menutren ul {
+    margin-left: 17%;
+}
+
+.menutren a {
+    text-decoration: none;
+    display: block;
+    padding: 16px 18px;
+    color: black;
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+nav.menutren {
+    position: fixed;
+    width: 100%;
+    height: 57px;
+    background: whitesmoke;
+    margin: auto;
+    top: 0;
+}
+
+.menutren ul li {
+    float: left;
+    list-style: none;
+}
